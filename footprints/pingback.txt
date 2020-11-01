@@ -1,0 +1,25 @@
+"Leave a Reply" Website
+"powered by boastmachine" inurl:blog inurl:id -inurl:profile
+"powered by Mephisto" "a response" -"are closed for" Email Address Website
+"powered by flatpress" "Fill out the form below to add" -eliminate -abuses
+"powered by pMachine" "Notify me when someone replies to this post"
+"Powered by s9y" "Remember Information?"
+"Speak Your Mind" Website
+"Leave a comment" Website
+"powered by lifetype" -"powered by wordpress" "personal page (if any)"
+"powered by Serendipity" "Remember Information?"
+"Allow users to contact you through a message form" "leave a comment"
+"Powered by Movable Type" "You may use HTML tags for style"
+"powered by dotclear" "HTML code is displayed as text"
+"Powered by Lifetype" "add comment"
+"powered by habari" "Add to the Discussion"
+"Add a comment" Website
+"powered by croogo" "Add New comment"
+"Write a Comment" Website
+"Add comment" Website
+"powered by bloog" "Lascia un Commento"
+"Powered by s9y" "add comment"
+inurl:?p=*&option=com_wordpress&Itemid=*
+inurl:/index.php?option=com_wordpress
+"The content of this field is kept private" "Switch to plain text editor" -inurl:register
+"powered by byteflow" "You can use Markdown here"

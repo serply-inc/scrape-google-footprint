@@ -1,0 +1,115 @@
+date "Store, share and tag your favourite links"
+inurl:"/register" upcoming published submit
+inurl:"/register.php" "Powered by Pligg"
+Anmeldung Charts Bookmark-Button
+"Powered By PHPDug" inurl:login.php
+inurl:/register intext:"upcoming" intext:"published" intext:"submit" -inurl:.php intitle:"register"
+inurl:"/pligg" inurl:/register.php
+"Designed by Pligg Templates"
+"Copyright * TeraPix.de"
+"Scuttle: Recent bookmarks"
+inurl:"register" intitle:"pligg"
+"Speicher alle Deine Webseiten-Favoriten an einem Ort"
+inurl:"scuttle/register"
+"Published News" "Upcoming News"
+"Powered by Pligg CMS"
+"Email:"  "Lowercase letters only"  "Password:"  "Five character minimum" "Lowercase letters only" "Five character minimum"
+first "Store, share and tag your favourite links"
+inurl:"/published/top30days"
+intitle:"Pligg Beta 9"
+"What Is Pligg?"
+"Submit Story" Popular Upcoming "View All"
+"Sort by:" "Store, share and tag your favourite links"
+Categories Join Login "View All" Popular Upcoming "Powered By PHPDug version"
+inurl:"bookmarks.php scuttle"
+inurl:"register.php" upcoming published submit
+"Store, share and tag your favourite links" scuttle
+inurl:"/register" upcoming published submit -inurl:.php intitle:"register"
+"Neu hier? Jetzt kostenlos mitmachen"
+bookmarks "Store, share and tag your favourite links"
+"Submit a New Story" "Please follow a few simple guidelines to make this site a better place" "Avoid duplicate submissions"
+digs "dig it" Popular Upcoming Join Login "Submit Story"
+"Published scoops"
+"al menos cinco caracteres"+"es importante que sea correcta, recibir?s un correo para validar la cuenta"
+"Live/current version of your bookmarked page."
+"Sosbook Power" Drigg
+inurl:populartags.php "Popular tags"
+"Recent Bookmarks" register "log in" "Recent Tags"
+"Published News" "Upcoming News" "Submit a new story" "What is Pligg?"
+scuttle inurl:"sort=url_asc"
+inurl:/register "Powered by Pligg"
+"Add and share your bookmarks with the ease of a click"
+"als UND Verknüpfung suchen"
+"combine keywords with AND"
+"Get your bookmarks!" getboo
+"Don't ask for my password for 2 weeks"
+"Are you new? Sign up for free"
+inurl:"live_comments" intitle:"pligg"
+"Social bookmarking by scuttlePLUS"
+inurl:/register upcoming published submit "Tag Cloud" -inurl:.php
+"Powered By PHPDug" inurl:signup.php
+"Published News" "Upcoming News" "Submit a New Story" Groups "Create a Group"
+inurl:"/published/top365days"
+inurl:"/populartags.php/"
+"http://www.pligg.com"
+"save and share interesting links"
+inurl:/register intext:"upcoming" intext:"published" intext:"submit" -inurl:.php
+intitle:Favoriten, Bookmarks bzw. Lesezeichen Online verwalten
+"stored on GetBoo"
+"by scuttlePLUS"
+"Powered By PHPDug" inurl:add_story.php
+Hotaru Popular Upcoming Latest "Best from"
+inurl:"scuttle/about.php"
+"Store all your favourite links in one place, accessible from anywhere"
+"PHPDug View All"
+inurl:"cloud.php" intitle:"pligg"
+"Pligg is an open source content management system that lets you easily create your own social network"
+inurl:"/published/top365days"
+"Powered by Pligg"
+next "Store, share and tag your favourite links"
+inurl:"/published/top7days"
+register "Store, share and tag your favourite links"
+"There is No need to Register an Account" "Just Go And Submit Your Story on Click Below Link" "Submit a New Story"
+inurl:"scuttle/register.php"
+inurl:"upcoming" intitle:"pligg"
+"die Top * aus * Bookmarks"
+"Share some of your bookmarks with the world, and keep"
+"Already have an account? Fantastic, log in below!"
+inurl:"story.php?title="
+inurl:"faq-en.php" pligg
+"Keep all your bookmarks in one place, accessible from anywhere."
+inurl:story.php?title=
+"Propulsed by SemanticScuttle"
+inurl:/upcoming/0/viewall/1.html
+"Submit a New Story" "Powered by Pligg"
+"Pligg Content Management System" "Register an Account"
+"My Pligg Site gives you a place to save and share your favorite web links"
+inurl:"/upcoming/leastpopular"
+inurl:phpdug/signup
+Previous "Store, share and tag your favourite links"
+"Your locally saved (snapshot) version."
+inurl:"scuttle/about.php"
+scuttle inurl:"/search.php/all/"
+"I agree to the Terms and Conditions for using PHPDug"
+inurl:"html.php?id=terms"
+inurl:/viewall/1.html
+Startseite Charts Anmelden Tools Schlagw?rter Mitgliederbereich
+"our top * out of * bookmarks"
+"Sort news by: Recently Popular" "Top Today" Yesterday Week Month Year
+"Du hast bereits einen Account? Prima, log dich hier ein!"
+"Please visit GetBoo's wiki for more information about the project."
+inurl:/bookmark-button/
+"Published News" "Upcoming News" "Submit a New Story" "Powered by Pligg"
+inanchor:"Pligg beta 9 Home"
+inurl:"/register" upcoming published submit "Tag Cloud"
+"Who Dugg this story?" "Email This Link"
+"Enter your username, email and password to register:" Hotaru
+"Interessante Links speichern und teilen"
+"Powered By Pligg" "Legal: License and Source"
+"Export & Import favorites" "Discover the popular tags"
+"Pligg is a Web 2.0 open source content management system"
+"Pligg is an open source content management system..
+"Store, share and tag your favourite links"
+"Bookmarking the web 2.0"
+powered by phpdug 2.0.0
+"melden Sie sich zuerst kostenlos an!"
