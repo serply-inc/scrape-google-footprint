@@ -18,35 +18,41 @@ def query(footprint: str, keyword: str):
     MOBILE_USER_AGENT = "Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36"
     HEADERS = {"user-agent": USER_AGENT}
 
-    query = {
-        "q": "{} {}".format(footprint, keyword),
-        "num": 100
-    }
+    step = 0
+    results = []
 
-    query = urllib.parse.urlencode(query)
-    url = f"https://google.com/search?{query}"
+    for start in range(0, 300, 100):
+        query = {
+            "q": "{} {}".format(footprint, keyword),
+            "num": 100,
+            "start": start
+        }
 
-    resp = requests.get(url, headers=HEADERS)
+        query = urllib.parse.urlencode(query)
+        url = f"https://google.com/search?{query}"
 
-    if resp.status_code == 200:
-        soup = BeautifulSoup(resp.content, "html.parser")
-        results = []
-        for g in soup.find_all('div', class_='rc'):
-            anchors = g.find_all('a')
-            if anchors:
-                link = anchors[0]['href']
-                title = g.find('h3').text
-                item = {
-                    "title": title,
-                    "link": link
-                }
-                results.append(item)
-        return results
-    elif (resp.status_code == 429) or ("Our systems have detected unusual traffic from your computer network." in resp.content):
-        return ValueError('Ran into captcha. Please use a proxy.')
-    else:
-        return []
+        resp = requests.get(url, headers=HEADERS)
 
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+            gs = soup.find_all('div', class_='rc')
+            for g in gs:
+                anchors = g.find_all('a')
+                if anchors:
+                    link = anchors[0]['href']
+                    title = g.find('h3').text
+                    item = {
+                        "title": title,
+                        "link": link
+                    }
+                    results.append(item)
+            if len(gs) < 10:
+                return results
+        elif (resp.status_code == 429) or ("Our systems have detected unusual traffic from your computer network." in resp.content):
+            results.append(ValueError('Ran into captcha. Please use a proxy.'))
+            return results
+
+    return results
 
 def main():
     """
@@ -83,13 +89,17 @@ def main():
             print('Scraping footprint: {} , keyword: "{}"'.format(footprint, keyword))
             try:
                 results = query(footprint=footprint, keyword=keyword)
-                print("Found {} links".format(len(results)))
+                print("Found {} results.".format(len(results)))
                 for r in results:
-                    links.add(r['link'])
+                    if type(r) == ValueError:
+                        # ran into captcha
+                        raise r
+                    else:
+                        links.add(r['link'])
             except Exception as e:
-                print(results)
-                if type(results) == ValueError:
-                    raise results
+                # ran into captcha
+                if type(e) == ValueError:
+                    raise e
             finally:
                 with open("results.txt", "wt") as fp:
                     fp.write("\n".join(list(links)))
