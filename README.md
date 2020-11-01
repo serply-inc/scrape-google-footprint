@@ -37,21 +37,21 @@ and integrate systems more effectively.
 
 The footprint used are in the [footprints folder](footprints)
 
--[x] [articles](footprints/articles.txt)
+-[x] [articles](footprints/article.txt)
 -[x] [blogs](footprints/blog.txt)
--[x] [bookmarks](footprints/bookmarks.txt)
+-[x] [bookmarks](footprints/bookmark.txt)
 -[x] [directory](footprints/directory.txt)
 -[x] [drupal](footprints/drupal.txt)
 -[x] [edu](footprints/edu.txt)
 -[x] [forums](footprints/forums.txt)
--[x] [guestbooks](footprints/guestbooks.txt)
+-[x] [guestbooks](footprints/guestbook.txt)
 -[x] [image](footprints/image.txt)
 -[x] [indexer](footprints/indexer.txt)
--[x] [microblogs](footprints/microblogs.txt)
+-[x] [microblogs](footprints/microblog.txt)
 -[x] [pingback](footprints/pingback.txt)
--[x] [social networks](footprints/socialnetworks.txt)
--[x] [trackbacks](footprints/trackbacks.txt)
--[x] [videosite](footprints/videosites.txt)
+-[x] [social networks](footprints/socialnetwork.txt)
+-[x] [trackbacks](footprints/trackback.txt)
+-[x] [videosite](footprints/videosite.txt)
 -[x] [wiki](footprints/wiki.txt)
 
 ## Contributing
