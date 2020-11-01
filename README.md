@@ -54,6 +54,57 @@ The footprint used are in the [footprints folder](footprints)
 - [x] [videosite](footprints/videosite.txt)
 - [x] [wiki](footprints/wiki.txt)
 
+## Usage
+The script requires two argument, `footprint` and `keyword`. Footprint is the name of the footprints you want to use, defaults to `edu.txt`. The keyword is the keywords you want to search for.
+
+### Example 1: searching for the keywords "best crossfit workout" with the footpints of edu.txt
+[example console output](#console_output)
+```bash
+python3 scrape.py --footprint edu.txt --keywords "best crossfit workout"
+```
+
+### Example 2: searching for the keywords "iPhone review" with the footpints of guestbook.txt 
+```bash
+python3 scrape.py --footprint guestbook.txt --keywords "iPhone reviews"
+```
+
+## Results
+
+The results are saved into [results.txt](results.txt)
+
+### console output
+```bash
+Scraping footprint: "Powered by Movable Type" "You may use HTML tags for style" , keyword: "best crossfit workout"
+Found 9 results.
+Scraping footprint: "powered by Mephisto" "a response" -"are closed for" Email Address Website , keyword: "best crossfit workout"
+Found 67 results.
+Scraping footprint: "Lisa kommentaar" "Kommentaare veel pole." , keyword: "best crossfit workout"
+Found 31 results.
+Scraping footprint: "Zostaw komentarz" , keyword: "best crossfit workout"
+Found 75 results.
+Scraping footprint: "Your email address will not be published. Required fields are marked" , keyword: "best crossfit workout"
+Found 149 results.
+Scraping footprint: "powered by Serendipity" "Remember Information?" , keyword: "best crossfit workout"
+Scraping footprint: "Email addresses are never displayed, but they are required to confirm your comments" , keyword: "best crossfit workout"
+Found 100 results.
+Scraping footprint: "Add a comment" Website , keyword: "best crossfit workout"
+Found 137 results.
+Scraping footprint: site:.blogspot.es , keyword: "best crossfit workout"
+Found 124 results.
+Scraping footprint: "add new comment" "what is the first word in the phrase" , keyword: "best crossfit workout"
+Found 19 results.
+Scraping footprint: "Powered by s9y" "add comment" , keyword: "best crossfit workout"
+Found 4 results.
+```
+
+## CAPTCHA
+
+<img src="img/reCAPTCHA-logo@2x.png" width="100">
+
+Eventually you will run into CATPCHAs. Consider using a proxy or a service like [Googio](https://goog.io/)
+
+
+
 ## Contributing
 
 ## Versioning
