@@ -58,7 +58,6 @@ The footprint used are in the [footprints folder](footprints)
 The script requires two argument, `footprint` and `keyword`. Footprint is the name of the footprints you want to use, defaults to `edu.txt`. The keyword is the keywords you want to search for.
 
 ### Example 1: searching for the keywords "best crossfit workout" with the footpints of edu.txt
-[example console output](#console_output)
 ```bash
 python3 scrape.py --footprint edu.txt --keywords "best crossfit workout"
 ```
@@ -72,7 +71,7 @@ python3 scrape.py --footprint guestbook.txt --keywords "iPhone reviews"
 
 The results are saved into [results.txt](results.txt)
 
-### console output
+### Console Results
 ```bash
 Scraping footprint: "Powered by Movable Type" "You may use HTML tags for style" , keyword: "best crossfit workout"
 Found 9 results.
