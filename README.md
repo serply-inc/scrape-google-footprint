@@ -100,7 +100,7 @@ Found 4 results.
 
 <img src="img/reCAPTCHA-logo@2x.png" width="100">
 
-Eventually you will run into CATPCHAs. Consider using a proxy or a service like [Googio](https://goog.io/)
+Eventually you will run into CATPCHAs. Consider using a proxy or a service like [Serply](https://serply.io)
 
 
 
@@ -110,7 +110,8 @@ Eventually you will run into CATPCHAs. Consider using a proxy or a service like 
 
 ## Authors
 
-* **googio** - *Initial work* - [Googio](https://goog.io/)
+* **googio** - *Initial work* - [Googio](https://github.com/googio)
+* **serply** - *Maintainer* - [Serply](https://serply.io)
 
 ## License
 [Apache license 2.0](LICENSE)
